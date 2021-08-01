@@ -1,9 +1,13 @@
-import "./App.css";
+import FirstBackdrop from "./firstBackdrop/firstBackdrop";
+import Footer from "./footer/footer";
+import NavBar from "./navbar/navbar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header"></header>
+    <div>
+      <NavBar />
+      <FirstBackdrop />
+      <Footer />
     </div>
   );
 }
